@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:false}))
 
 
-
+//comment
 app.set('view engine','hbs');
 
 const static_path = path.join(__dirname,'../public');
